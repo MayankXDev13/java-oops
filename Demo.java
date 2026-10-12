@@ -20,7 +20,9 @@ public class Demo {
 
 
         Student s1 = new Student("Mayank", 22);
-        s1.study();
+        // s1.study();
+        String message = s1.sayHelloTo("ChiaAurCode");
+        System.out.println(message);
 
         // Student s2 = new Student();
         // s2.name = "Ayush";
@@ -84,8 +86,7 @@ class Student {
         System.out.println(this.name + " is studying");
     }
 
-
-    
-    
+    String sayHelloTo(String name) {
+        return "Hello " + name + "! My name is " + this.name;
+    }
 }
-
