@@ -36,7 +36,7 @@ class Student {
 
 public class Encapsulation {
     public static void main(String[] args) {
-        BankAccount account = new BankAccount();
+        // BankAccount account = new BankAccount();
 
         // account.balance = 1000;
         // account.balance = -5000; // invalid
