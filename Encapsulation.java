@@ -31,22 +31,24 @@ class Student {
         return marks;
     }
 
-    public class Main {
-        public static void main(String[] args) {
-            BankAccount account = new BankAccount();
+    
+}
 
-            // account.balance = 1000;
-            // account.balance = -5000; // invalid
-            // System.out.println(account.balance);
+public class Encapsulation {
+    public static void main(String[] args) {
+        BankAccount account = new BankAccount();
 
-            // account.deposit(1000);
-            // account.withdraw(500);
-            // System.out.println(account.getBalance());
+        // account.balance = 1000;
+        // account.balance = -5000; // invalid
+        // System.out.println(account.balance);
 
-            Student student = new Student();
-            student.setMarks(100);
-            System.out.println(student.getMarks());
+        // account.deposit(1000);
+        // account.withdraw(500);
+        // System.out.println(account.getBalance());
 
-        }
+        Student student = new Student();
+        student.setMarks(100);
+        System.out.println(student.getMarks());
+
     }
 }
